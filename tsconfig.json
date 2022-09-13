@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ESNext",
+        "outDir": "./build",
+        "sourceMap": true,
+        "watch": true
+    }
+}

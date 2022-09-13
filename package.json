@@ -1,0 +1,23 @@
+{
+  "name": "linearcutlist",
+  "version": "1.0.0",
+  "description": "Generate a linear cutlist",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js start-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "woodworking",
+    "linear",
+    "cutlist"
+  ],
+  "author": "Jake Anderson",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.23",
+    "express": "^4.17.3"
+  }
+}
